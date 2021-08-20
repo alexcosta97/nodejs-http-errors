@@ -1,0 +1,42 @@
+{
+  "name": "@alexcosta97/http-errors",
+  "version": "0.0.1",
+  "description": "Custom throwable HTTP Errors for Node.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "webpack --config ./webpack.config.js --mode=production",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexcosta97/nodejs-http-errors.git"
+  },
+  "keywords": [
+    "error",
+    "http",
+    "es6"
+  ],
+  "author": "Alexandre Costa <alex@alexcosta.dev> (https://alexcosta.dev/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexcosta97/nodejs-http-errors/issues"
+  },
+  "homepage": "https://github.com/alexcosta97/nodejs-http-errors#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/node": "^7.14.9",
+    "@babel/preset-env": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-jest": "^24.4.0",
+    "eslint-plugin-security": "^1.4.0",
+    "jest": "^27.0.6",
+    "jest-extended": "^0.11.5",
+    "nodemon": "^2.0.12",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
