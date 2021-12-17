@@ -7,6 +7,7 @@ import InvalidRequest from './invalidRequest';
 import InvalidScope from './invalidScope';
 import UnauthorizedClient from './unauthorizedClient';
 import UnsupportedGrantType from './unsupportedGrantType';
+import errorHandler from './errorHandler';
 
 export default {
   OAuthError,
@@ -17,5 +18,6 @@ export default {
   InvalidRequest,
   InvalidScope,
   UnauthorizedClient,
-  UnsupportedGrantType
+  UnsupportedGrantType,
+  errorHandler
 };
