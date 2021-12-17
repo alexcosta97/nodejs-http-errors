@@ -5,6 +5,7 @@ import ConflictError from './errors/conflict';
 import HttpError from './errors/http';
 import InternalError from './errors/internalError';
 import NotFoundError from './errors/notFound';
+import OAuth from './errors/oauth/index';
 
 export default {
   BadRequestError,
@@ -13,5 +14,6 @@ export default {
   ConflictError,
   HttpError,
   InternalError,
-  NotFoundError
+  NotFoundError,
+  OAuth
 };
