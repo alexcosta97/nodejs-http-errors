@@ -6,6 +6,7 @@ import HttpError from './errors/http';
 import InternalError from './errors/internalError';
 import NotFoundError from './errors/notFound';
 import OAuth from './errors/oauth/index';
+import errorHandler from './errors/errorHandler';
 
 export default {
   BadRequestError,
@@ -15,5 +16,6 @@ export default {
   HttpError,
   InternalError,
   NotFoundError,
-  OAuth
+  OAuth,
+  errorHandler
 };
