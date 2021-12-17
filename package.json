@@ -1,6 +1,6 @@
 {
   "name": "@alexcosta97/http-errors",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Custom throwable HTTP Errors for Node.js",
   "main": "lib/index.js",
   "scripts": {
