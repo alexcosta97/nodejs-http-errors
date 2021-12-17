@@ -36,8 +36,6 @@
     "jest": "^27.0.6",
     "jest-extended": "^1.2.0",
     "nodemon": "^2.0.12",
-    "rollup": "^2.56.3",
-    "webpack": "^5.51.1",
-    "webpack-cli": "^4.8.0"
+    "rollup": "^2.56.3"
   }
 }
