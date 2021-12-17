@@ -1,6 +1,6 @@
 import OAuthError from './error';
 
-export default class InternalError extends OAuthError {
+export default class ServerError extends OAuthError {
   constructor(message) {
     super(message);
     this.error = 'server_error';
