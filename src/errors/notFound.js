@@ -5,7 +5,7 @@ export default class NotFoundError extends HttpError {
     super(message);
     this.name = 'NotFoundError';
     this.status = 404;
-    this.operationId = operationId || 'categoriesOperation';
+    this.operationId = operationId || 'someOperation';
     this.userMessage = userMessage || `Couldn't find information. Please try again later.`;
     this.code = 'not_found';
   }
