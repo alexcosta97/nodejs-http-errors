@@ -37,5 +37,10 @@
     "jest-extended": "^1.2.0",
     "nodemon": "^2.0.12",
     "rollup": "^2.56.3"
+  },
+  "renovate": {
+    "extends": [
+      "github>alexcosta97/renovate-config"
+    ]
   }
 }
